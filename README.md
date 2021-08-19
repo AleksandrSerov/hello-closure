@@ -1,3 +1,3 @@
 # hello-closure
 
-start - clj -M --main cljs.main --compile hello-closure.core --repl
+start - clj -M -m cljs.main -c hello-closure.core -r

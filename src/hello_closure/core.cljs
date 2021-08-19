@@ -1,3 +1,6 @@
-(ns hello-closure.core)
+(ns hello-closure.core
+  (:require react-dom))
 
-(println "Hello closure!")
+(.render js/ReactDOM
+         (.createElement js/React "h2" nil "Hello, React!")
+         (.getElementById js/document "app"))
